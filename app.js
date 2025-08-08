@@ -36,5 +36,19 @@ function agregarAmigo(){
 
 }   
 
+
+    //Implementa una función para sortear los amigos
+
+    function sortearAmigos(){
+
+        // validar que haya amigos disponibles
+        if (nombresSecretos.length === 0){
+            alert(`No hay amigos para sortear`);
+            return;
+        }
+
+        
+    }
+
 console.log(agregarAmigo);
 console.log("nombre");
