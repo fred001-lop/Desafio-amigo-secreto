@@ -50,6 +50,9 @@ function agregarAmigo(){
         //Generar un indice aleatoria
         const indiceAleatorio = Math.floor(Math.random()* nombresSecretos.length);
 
+        //Obtener el nombre sorteado
+        const amigoSorteado = nombresSecretos[indiceAleatorio];
+
         
     }
 
