@@ -53,7 +53,9 @@ function agregarAmigo(){
         //Obtener el nombre sorteado
         const amigoSorteado = nombresSecretos[indiceAleatorio];
 
-        
+        //mostrar el resultado
+        const resultadoElemento = document.getElementById('resultado');
+        resultadoElemento.innerHTML = `<li>El amigo sorteado es:<strong> ${amigoSorteado}</strong></li>`;
     }
 
 console.log(agregarAmigo);
