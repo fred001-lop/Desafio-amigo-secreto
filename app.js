@@ -47,6 +47,9 @@ function agregarAmigo(){
             return;
         }
 
+        //Generar un indice aleatoria
+        const indiceAleatorio = Math.floor(Math.random()* nombresSecretos.length);
+
         
     }
 
