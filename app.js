@@ -26,6 +26,14 @@ function agregarAmigo(){
     const lista = document.getElementById('listaAmigos');
     lista.innerHTML = '';//limpiar lista antes de actualizar 
 
+    //Iterar sobre el arreglo: Usa un bucle for para recorrer el arreglo amigos y crear elementos de lista (<li>) para cada título.
+    for (let i = 0; i<nombresSecretos.length; i++){
+        const li = document.createElement('li');
+        li.textContent = nombresSecretos[i];
+        lista.appendChild(li);
+    }
+    console.log(`Lista actualizada: ${nombresSecretos}`);
+
 }   
 
 console.log(agregarAmigo);
