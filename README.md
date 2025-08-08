@@ -25,9 +25,9 @@ Este proyecto permite a los usuarios agregar nombres a una lista, mostrarla dina
   ## Cómo usar
 
 1. Clona este repositorio
-  ---
+
     ```bash
- git clone https://github.com/fred001-lop/Desafio-amigo-secreto.git
+     https://github.com/fred001-lop/Desafio-amigo-secreto.git
  
 2. Abra el archivo index.html en tu navegador
 3. Escribe el nombre de un amigo y haz clic en "Añadir"
