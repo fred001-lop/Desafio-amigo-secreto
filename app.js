@@ -39,7 +39,7 @@ function agregarAmigo(){
 
     //Implementa una función para sortear los amigos
 
-    function sortearAmigos(){
+    function sortearAmigo(){
 
         // validar que haya amigos disponibles
         if (nombresSecretos.length === 0){
